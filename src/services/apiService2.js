@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://pcbuildbackend.onrender.com"; // Adjust if necessary
+const API_URL = process.env.REACT_APP_API_URL || 'https://pcbuildbackend.onrender.com'; // Adjust if necessary
 
 const apiService2 = {
   getAllComponents: async () => {
