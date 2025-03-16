@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://pcbuildbackend.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://api.render.com/deploy/srv-cvbbo75svqrc73c5iutg?key=mp6u8Ck3vkg';
 
 // Create axios instance
 const api = axios.create({
